@@ -36,8 +36,7 @@ namespace SayingApps
             {
                 fil.WriteLine(txtBoxSaying.Text);        
                 txtBoxSaying.Text = "";
-                txtBoxSaying.Focus();
-                lblWarning.Text = "Text processed";
+                txtBoxSaying.Focus();                
             }
             catch (System.IO.IOException exc)
             {
